@@ -39,12 +39,20 @@ p {
     color: black;
 }
 
-/* .gallery{
-    justify-content: space-evenly;
-} */
+.gallery{
+    justify-content: space-around;
+    /* background: linear-gradient(#48454C, black); */
+    background-image: url("/images/new/blackBoard.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline;
+}
 
 .gallery>div{
-    width: 150px;
-    margin-bottom: 20px;
-    margin-right: 20px;
+    width: 200px;
+    margin: 20px 0px;
+}
+
+#mahler{
+    width: 100px;
 }
