@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+body:after {
+    background-image: url(/images/new/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    visibility: visible;
+    opacity: 1;
+    background-color: black;
+    opacity: 0.5;
+}
+
+body,
+input,
+select,
+textarea {
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+header p {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+/* .gallery{
+    justify-content: space-evenly;
+} */
+
+.gallery>div{
+    width: 150px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
