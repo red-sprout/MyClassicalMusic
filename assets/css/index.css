@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&display=swap');
 
 body:after {
-    background-image: url("/images/new/bg.jpg");
+    background-image: url("../../images/new/bg.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
