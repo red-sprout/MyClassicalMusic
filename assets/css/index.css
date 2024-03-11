@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&display=swap');
 
 body:after {
-    background-image: url(/images/new/bg.jpg);
+    background-image: url("/images/new/bg.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,20 +40,90 @@ p {
     color: black;
 }
 
-.gallery{
-    justify-content: space-around;
-    /* background: linear-gradient(#48454C, black); */
-    background-image: url("/images/new/blackBoard.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    display: inline;
+.gallery {
+    justify-content: space-evenly;
+    background-color: black;
+    opacity: 0.8;
+    /* background: #8D7C73; */
+    /* background-image: url("/images/new/blackBoard.jpg"); */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* display: inline; */
 }
 
-.gallery>div{
+.gallery>div {
     width: 200px;
-    margin: 20px 0px;
+    margin: 20px 20px;
 }
 
-#mahler{
-    width: 100px;
+#composer {
+    width: 150px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.hangul {
+    font-family: "Hahmlet", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.description {
+    color: antiquewhite;
+    /* font-weight: bold; */
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.style1 {
+    background-color: rgb(240, 230, 230);
+}
+
+.gallery .image {
+    position: relative;
+}
+
+.gallery .image img {
+    -webkit-filter: brightness(1);
+    filter: brightness(1);
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+.gallery .image:hover img {
+    -webkit-filter: brightness(0.1);
+    filter: brightness(0.1);
+}
+
+.gallery .image .hoverBox {
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    opacity: 0;
+    top: 0px;
+    text-align: center;
+}
+
+.gallery .image:hover .hoverBox {
+    opacity: 1;
+}
+
+iframe {
+    margin: 0px;
+}
+
+footer {
+    background-color: black;
+    opacity: 0.8;
+}
+
+.copyright {
+    background-color: black;
+    opacity: 0.8;
 }
